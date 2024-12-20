@@ -1,0 +1,57 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+/* Galeri Konteyneri */
+.gallery-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Resim Ayarları */
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Buton Ayarları */
+#next-btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Buton Hover Etkisi */
+#next-btn:hover {
+    background: #0056b3;
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 600px) {
+    .gallery-container {
+        width: 90%;
+    }
+    #next-btn {
+        width: 100%;
+    }
+}
